@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link href="Site.css" rel="stylesheet" />
+    <style>
+        .tbContainer{
+            background-color: #0000FF;
+        }
+    </style>
+    <title></title>
+</head>
+<body>
+    <img src="bby_logo.png" id="imgLogo" />
+    <div id="ulMenu">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="ProductList.html">ProductList</a></li>
+        </ul>
+    </div>
+    <div>
+        <table id="tbContainer" width="100%">
+            <tr>
+                <td width="20%">
+                    <div id="divListCategories">
+                        <button onclick="Game()">Game</button></br>
+                        <button onclick="TV()">TV</button></br>
+                        <button onclick="Desktop()">Desktop</button></br>
+                        <button onclick="laptop()">laptop</button></br>
+                        <button onclick="Speaker()">Speaker</button></br>
+                    </div>
+                </td>
+                <td width="80%">
+                    <div id="MarioKart">
+                        <img class="MarioKart" src="5723304_sa.jpg" /></br>
+                        <h4>Product: </h4>
+                        <a>Mario Kart 8</a>
+                        </br></br>
+                        <h4>Price: </h4>
+                        <a class="money">$59.99</a>
+                        </br></br>
+                        <h4>Description: </h4>
+                        <a>This is a game for nintendo Switch</a>
+                    </div>
+                    <div id="TV" style="        display: none;">
+                        <img class="TV" src="6219205_sd.jpg" /></br>
+                        <h4>Product: </h4>
+                        <a>LG 50" LCD</a>
+                        </br></br>
+                        <h4>Price: </h4>
+                        <a class="money">$259.99</a>
+                        </br></br>
+                        <h4>Description: </h4>
+                        <a>This is LG 50" LCD TV</a>
+                    </div>
+                    <div id="Desktop" style="display:none;">
+                        <img src="6370810_sd.jpg" /></br>
+                        <h4>Product: </h4>
+                        <a>HP Desktop</a>
+                        </br></br>
+                        <h4>Price: </h4>
+                        <a class="money">$559.99</a>
+                        </br></br>
+                        <h4>Description: </h4>
+                        <a>This is a HP Gaming Desktop</a>
+                    </div>
+                    <div id="laptop" style="display:none;">
+                        <img src="6374985_sd.jpg" /></br>
+                        <h4>Product: </h4>
+                        <a>Surface Pro 7</a>
+                        </br></br>
+                        <h4>Price: </h4>
+                        <a class="money">$799.99</a>
+                        </br></br>
+                        <h4>Description: </h4>
+                        <a>This is Microsoft Surface Pro 7</a>
+                    </div>
+                    <div id="Speaker" style="display:none;">
+                        <img src="4316000_sd.jpg" /></br>
+                        <a>Product: </a>
+                        <a>Bose Speaker</a>
+                        </br></br>
+                        <a>Price: </a>
+                        <a class="money">$259.99</a>
+                        </br></br>
+                        <h4>Description: </h4>
+                        <a>This is Bose Speaker</a>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <ul id="ulcopyRight">
+            <li>CopyRight</li>
+        </ul>
+    </div>
+
+    <script>
+        function Game() {
+            document.getElementById("MarioKart").style.display = "block";
+            document.getElementById("TV").style.display = "none";
+            document.getElementById("Desktop").style.display = "none";
+            document.getElementById("laptop").style.display = "none";
+            document.getElementById("Speaker").style.display = "none";
+        }
+        function TV() {
+            document.getElementById("MarioKart").style.display = "none";
+            document.getElementById("TV").style.display = "block";
+            document.getElementById("Desktop").style.display = "none";
+            document.getElementById("laptop").style.display = "none";
+            document.getElementById("Speaker").style.display = "none";
+        }
+        function Desktop() {
+            document.getElementById("MarioKart").style.display = "none";
+            document.getElementById("TV").style.display = "none";
+            document.getElementById("Desktop").style.display = "block";
+            document.getElementById("laptop").style.display = "none";
+            document.getElementById("Speaker").style.display = "none";
+        }
+        function laptop() {
+            document.getElementById("MarioKart").style.display = "none";
+            document.getElementById("TV").style.display = "none";
+            document.getElementById("Desktop").style.display = "none";
+            document.getElementById("laptop").style.display = "block";
+            document.getElementById("Speaker").style.display = "none";
+        }
+        function Speaker() {
+            document.getElementById("MarioKart").style.display = "none";
+            document.getElementById("TV").style.display = "none";
+            document.getElementById("Desktop").style.display = "none";
+            document.getElementById("laptop").style.display = "none";
+            document.getElementById("Speaker").style.display = "block";
+        }
+    </script>
+</body>
+</html>

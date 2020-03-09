@@ -1,0 +1,39 @@
+﻿/*Site Styles*/
+#imgLogo {
+    background-color: #0000FF;
+}
+#ulMenu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: 1px solid gray;
+    height: 45px;
+}
+    #ulMenu li {
+        float: left;
+        display: block;
+        position: relative;
+        width: 120px;
+        height: 20px;
+        border-right: 1px solid #B2B0B0;
+        text-align: center;
+        font-size: larger;
+        font-weight: bold;
+        color: white;
+    }
+.money {
+    color: red;
+    font-size: medium;
+    font-weight: bold;
+}
+#ulcopyRight {
+    list-style: none;
+    text-align: center;
+    background-color: gray;
+}
+
+/*Home Page Styles*/
+#divBannerImg {
+    background-color: #0000FF;
+    text-align: center;
+}
